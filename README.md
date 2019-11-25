@@ -1,5 +1,7 @@
 # getir
 
+Running App: https://getir-mert.herokuapp.com
+
 ## Development and Test
 
 Installing Instructions.
@@ -10,8 +12,6 @@ Installing Instructions.
 - Run "npm start"
 
 For Test: Run "npm test"
-
-Running App: https://getir-mert.herokuapp.com
 
 ## Methods
 

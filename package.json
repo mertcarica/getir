@@ -1,0 +1,37 @@
+{
+  "name": "getir",
+  "version": "1.0.0",
+  "description": "Project for Getir Assessment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app/bin/www",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mertcarica/getir.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mertcarica/getir/issues"
+  },
+  "homepage": "https://github.com/mertcarica/getir#readme",
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "@hapi/joi-date": "^2.0.1",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.12",
+    "nodemon": "^2.0.1",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}

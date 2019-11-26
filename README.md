@@ -24,7 +24,7 @@ Body must be a JSON.
 ```
 {
     "startDate": "2019-01-01",
-    "endDate": "2018-10-31",
+    "endDate": "2019-10-31",
     "minCount": 100,
     "maxCount": 900
 }
